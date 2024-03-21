@@ -1,0 +1,14 @@
+.contact_list
+{
+    list-style: disc none inside;
+}
+#mail{
+    list-style-image: url(C:\Users\admin\Desktop\FrontEnd101\app\public\Images\Subtract.png);   
+}
+#phone{
+    list-style-image: url(C:\Users\admin\Desktop\FrontEnd101\app\public\Images\phone.png); 
+}
+#geo{
+    list-style-image: url(C:\Users\admin\Desktop\FrontEnd101\app\public\Images\geo.png); 
+}
+

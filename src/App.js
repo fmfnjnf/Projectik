@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import Reg from './components/Reg/Reg.jsx';
+import Aut from './components/Autrorize/Aut.jsx';
+import Callback from './components/Callback/Callback.jsx';
+import Social from './components/SocialsMedia/SocialMedia.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Reg/>
     </div>
   );
 }

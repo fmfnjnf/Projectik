@@ -1,0 +1,73 @@
+body{
+    background-color:#F5F5F5;
+}
+.Call{
+    padding-top: 50px;
+}
+.Call-list{
+margin-left: auto;
+margin-right: auto;
+background-color:#FFFFFF;
+border-radius: 12px;
+padding: 60px;
+width: 595px;
+height: 350px;
+border: 3px solid #FFFFFF;
+}
+.Call-item{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+input {
+text-indent: 20px;
+text-align:start;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+background-color: #fcfcfd;
+border: 1px solid #f1f1f3;
+border-radius: 6px;
+margin: 5px;
+padding: 15px 15px 15px 0px;
+width: 550px;
+height: 10px;
+}
+label{
+text-align:start;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #262626;
+}
+.btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    background-color: #00BC13;
+    border-radius: 6px;
+    padding: 14px 20px;
+    width: 150px;
+    height: 20px;
+}
+.Call-aut{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.Call-ent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+}
+
+h3{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #59595a;
+}
